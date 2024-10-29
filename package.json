@@ -1,6 +1,6 @@
 {
   "name": "@dharitri-sdk/metamask-snap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Snap connector to Dharitri chain.",
   "keywords": [],
   "bugs": {

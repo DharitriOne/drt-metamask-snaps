@@ -21,7 +21,7 @@ describe('onRpcRequest', () => {
     });
 
     expect(response).toRespondWith(
-      'moa184gtfgrrdmfc0qwq93g804w2z4rat453334uelfn5jznameapw6s7kf0f4',
+      'moa184gtfgrrdmfc0qwq93g804w2z4rat453334uelfn5jznameapw6snw0q49',
     );
 
     await close();
@@ -225,9 +225,9 @@ describe('onRpcRequest', () => {
         nonce: 1,
         value: '1',
         receiver:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         sender:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         gasPrice: 120000,
         gasLimit: 120000,
         chainID: 'D',
@@ -247,7 +247,7 @@ describe('onRpcRequest', () => {
     expect(ui).toRender(
       panel([
         text('Send to'),
-        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh'),
+        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38'),
         divider(),
         text('Amount'),
         row('0.000000000000000001 xREWA', image(REWA_LOGO), RowVariant.Default),
@@ -264,7 +264,7 @@ describe('onRpcRequest', () => {
     await ui.ok();
 
     expect(await response).toRespondWith([
-      '{"nonce":1,"value":"1","receiver":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh","sender":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh","gasPrice":120000,"gasLimit":120000,"chainID":"D","version":1,"signature":"1e560e0a8d7b5251ed98ab67016f8513d5631a93e2a1273211acab47d18a48780b9b2f51dab53ddba1df6c311afb64845940a7c40d8e732af464ebf27a3a1b04"}',
+      '{"nonce":1,"value":"1","receiver":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38","sender":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38","gasPrice":120000,"gasLimit":120000,"chainID":"D","version":1,"signature":"1e560e0a8d7b5251ed98ab67016f8513d5631a93e2a1273211acab47d18a48780b9b2f51dab53ddba1df6c311afb64845940a7c40d8e732af464ebf27a3a1b04"}',
     ]);
 
     await close();
@@ -315,9 +315,9 @@ describe('onRpcRequest', () => {
         nonce: 1,
         value: '1',
         receiver:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         sender:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         gasPrice: 120000,
         gasLimit: 120000,
         chainID: 'D',
@@ -327,9 +327,9 @@ describe('onRpcRequest', () => {
         nonce: 2,
         value: '2',
         receiver:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         sender:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         gasPrice: 120000,
         gasLimit: 120000,
         chainID: 'D',
@@ -349,7 +349,7 @@ describe('onRpcRequest', () => {
     expect(ui).toRender(
       panel([
         text('Send to'),
-        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh'),
+        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38'),
         divider(),
         text('Amount'),
         row('0.000000000000000001 xREWA', image(REWA_LOGO), RowVariant.Default),
@@ -370,7 +370,7 @@ describe('onRpcRequest', () => {
     expect(ui2).toRender(
       panel([
         text('Send to'),
-        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh'),
+        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38'),
         divider(),
         text('Amount'),
         row('0.000000000000000002 xREWA', image(REWA_LOGO), RowVariant.Default),
@@ -440,9 +440,9 @@ describe('onRpcRequest', () => {
         nonce: 1,
         value: '1',
         receiver:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         sender:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         gasPrice: 120000,
         gasLimit: 120000,
         chainID: 'D',
@@ -452,9 +452,9 @@ describe('onRpcRequest', () => {
         nonce: 2,
         value: '2',
         receiver:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         sender:
-          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh',
+          'moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38',
         gasPrice: 120000,
         gasLimit: 120000,
         chainID: 'D',
@@ -474,7 +474,7 @@ describe('onRpcRequest', () => {
     expect(ui).toRender(
       panel([
         text('Send to'),
-        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh'),
+        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38'),
         divider(),
         text('Amount'),
         row('0.000000000000000001 xREWA', image(REWA_LOGO), RowVariant.Default),
@@ -495,7 +495,7 @@ describe('onRpcRequest', () => {
     expect(ui2).toRender(
       panel([
         text('Send to'),
-        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh'),
+        text('moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38'),
         divider(),
         text('Amount'),
         row('0.000000000000000002 xREWA', image(REWA_LOGO), RowVariant.Default),
@@ -512,8 +512,8 @@ describe('onRpcRequest', () => {
     await ui2.ok();
 
     expect(await response).toRespondWith([
-      '{"nonce":1,"value":"1","receiver":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh","sender":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh","gasPrice":120000,"gasLimit":120000,"chainID":"D","version":1,"signature":"1e560e0a8d7b5251ed98ab67016f8513d5631a93e2a1273211acab47d18a48780b9b2f51dab53ddba1df6c311afb64845940a7c40d8e732af464ebf27a3a1b04"}',
-      '{"nonce":2,"value":"2","receiver":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh","sender":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqs8radh","gasPrice":120000,"gasLimit":120000,"chainID":"D","version":1,"signature":"0a6304b7ffd8abde379432572567b9203e150482e028c7b568ab8b0cb603ba136f4a8bb6ba69ed5386c423fd77915fbfbd81e462bfb918c9808fa83b399a820d"}',
+      '{"nonce":1,"value":"1","receiver":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38","sender":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38","gasPrice":120000,"gasLimit":120000,"chainID":"D","version":1,"signature":"1e560e0a8d7b5251ed98ab67016f8513d5631a93e2a1273211acab47d18a48780b9b2f51dab53ddba1df6c311afb64845940a7c40d8e732af464ebf27a3a1b04"}',
+      '{"nonce":2,"value":"2","receiver":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38","sender":"moa1elfck5guq2akmdee9p6lwv6wa8cuf250fajmff99kpu3vhgcnjlqal9j38","gasPrice":120000,"gasLimit":120000,"chainID":"D","version":1,"signature":"0a6304b7ffd8abde379432572567b9203e150482e028c7b568ab8b0cb603ba136f4a8bb6ba69ed5386c423fd77915fbfbd81e462bfb918c9808fa83b399a820d"}',
     ]);
 
     await close();
